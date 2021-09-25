@@ -89,7 +89,7 @@ print(f"The discount rate for the loan is: {discount_rate}")
 #   HINT: Present Value = Future Value / (1 + Discount_Rate/12) ** remaining_months
 # YOUR CODE HERE!
 
-present_value = fut_value / (1 + .2/12) * rem_months
+present_value = fut_value / (1 + discount_rate/12) * rem_months
 
 
 # If Present Value represents what the loan is really worth, does it make sense to buy the loan at its cost?
